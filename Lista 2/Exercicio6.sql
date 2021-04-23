@@ -41,7 +41,7 @@ insert into tb_curso (nome, valor, unidade, duracao, turma, categoriaID) values 
 
 select * from tb_curso;
 
--- Produtos com o valor maior do que 2000 reais.
+-- Cursos com o valor maior do que 2000 reais.
 select * from tb_curso where valor > 2000.00;
 
 -- Cursos com valor entre 500 e 1500 reais.
